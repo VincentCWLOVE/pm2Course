@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js">
+
+    $.ajax({
+        type: "POST",
+        url: "http://localhost:3000/api/users/register",
+        data: {
+            type:"01",
+            phoneno:"18665639841",
+            password:"dfdfad",
+        },
+        dataType:"json",
+        success: function(result){
+            console.log(result)
+        }
+    });
+
+</script>
+
+<script>
+
+    $.ajax({
+        type: "POST",
+        url: "http://localhost:3000/api/users/register",
+        data: {
+            type:"01",
+            phoneno:"18665639841",
+            password:"dfdfad",
+        },
+        dataType:"json",
+        success: function(result){
+            console.log(result)
+        }
+    });
+
+
+
+
+
+    $.ajax({
+        type: "POST",
+        url: "http://localhost:3000/api/users/register",
+        data: {
+            type:"02",
+            email:"438419787_test@qq.com",
+            password:"dfdfad",
+        },
+        dataType:"json",
+        success: function(result){
+            console.log(result)
+        }
+    });
+
+
+
+    $.ajax({
+        type: "POST",
+        url: "http://localhost:3000/api/users/login",
+        data: {
+            type:"01",
+            phoneno:"18665639841",
+            password:"dfdfad",
+        },
+        dataType:"json",
+        success: function(result){
+            console.log(result)
+        }
+    });
+
+
+    $.ajax({
+        type: "POST",
+        url: "http://localhost:3000/api/users/login",
+        data: {
+            type:"02",
+            email:"438419787_test@qq.com",
+            password:"dfdfad",
+        },
+        dataType:"json",
+        success: function(result){
+            console.log(result)
+        }
+    });
+
+    $.ajax({
+
+        type: "POST",
+        url: "http://localhost:3000/api/users/list",
+        data: {
+            token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhZGYzZjkzNjkxNWUzNmIzZjA5YjFkNiIsImlhdCI6MTUyNDU4MDI0M30.uaia1l-T-bwBRSl_yFwZTMSvYXxtilbnyI2LbbYjz2k",
+            type:"01",
+        },
+        dataType:"json",
+        success: function(result){
+            console.log(result)
+        }
+    });
+
+
+</script>
+</body>
+</html>
