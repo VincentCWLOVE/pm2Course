@@ -3,6 +3,7 @@
 > 涉及到的知识点 `express` `pm2` `mongoose` `jwt` `SSO`等 
 
 ### 环境搭建
+
 ```bash
 # 安装 express
 npm install express-generator -g
@@ -13,6 +14,7 @@ npm install pm2 -g
 
 
 ### 程序编写
+
 ```bash
 mkdir pm2Course
 cd pm2Course
