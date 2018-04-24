@@ -11,7 +11,7 @@ npm install express-generator -g
 npm install pm2 -g
 # 安装 MongoDB
 # 根据自己的操作系统安装MongoDB ------->https://www.mongodb.com/download-center?jmp=nav#community
-
+```
 
 ### 程序编写
 
@@ -31,7 +31,7 @@ cd appname
 npm install bcrypt --save
 npm install jsonwebtoken --save
 npm install mongoose --save
-
+```
 
 
  
